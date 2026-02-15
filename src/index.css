@@ -2,65 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Your custom styles below */
+/* * Global Root Configuration
+ * Sets up standard font stacks, anti-aliasing, and base themes.
+ */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* Global Reset & Base Styles */
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
 
-html,  
+html,
 #root {
   width: 100%;
   height: 100%;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+/* Interactive Elements */
+a {
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  color: #646cff;
+  text-decoration: inherit;
+  transition: color 0.25s;
 }
 
+a:hover {
+  color: #535bf2;
+}
+
+/* Navigation Overrides - Ensures links in navbars don't look like text links */
+nav a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+nav a:hover {
+  color: inherit !important;
+}
+
+/* Light Mode Overrides */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -69,17 +64,4 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-/* Override global styles for header navigation */
-nav a {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
-nav a:hover {
-  color: inherit !important;
 }

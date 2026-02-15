@@ -1,12 +1,16 @@
 import { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './HomePage';
-import About from './About';
-import MainPage from './MainPage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import About from "./About";
+import MainPage from "./MainPage";
 
 function App() {
+  /**
+   * Session Management
+   * Clears localStorage and sessionStorage when the user closes the tab or refreshes.
+   * This ensures a clean state for file uploads on every new session.
+   */
   useEffect(() => {
-    // Clear storage only when tab is closed or page is reloaded
     const handleBeforeUnload = () => {
       localStorage.clear();
       sessionStorage.clear();
@@ -18,7 +22,7 @@ function App() {
       window.removeEventListener("beforeunload", handleBeforeUnload);
     };
   }, []);
-  
+
   return (
     <Router>
       <Routes>

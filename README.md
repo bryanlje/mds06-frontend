@@ -36,8 +36,8 @@
 This project is divided into three main repositories to handle the frontend, backend logic, and model development separately:
 
 * **Frontend (This Repo):** [https://github.com/bryanlje/mds06-frontend](https://github.com/bryanlje/mds06-frontend)
-* **Backend API:** [[[https://github.com/bryanlje/mds06-backend](https://github.com/bryanlje/mds06-backend)]]
-* **Model Training & Data Preparation:** [[[https://github.com/bryanlje/mds06-ml](https://github.com/bryanlje/mds06-ml)]]
+* **Backend API:** [https://github.com/bryanlje/mds06-backend](https://github.com/bryanlje/mds06-backend)
+* **Model Training & Data Preparation:** [https://github.com/bryanlje/mds06-ml](https://github.com/bryanlje/mds06-ml)
 
 ---
 
