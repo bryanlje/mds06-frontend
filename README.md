@@ -145,18 +145,6 @@ Follow these steps to run the frontend application locally.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1.  Fork the project
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
----
-
 ## 👥 Team Members
 
 This project was developed by:
@@ -176,6 +164,6 @@ This project was developed by:
 
 ## 📧 Contact
 
-Email - [2025mds06@gmail.com](mailto:2025mds06@gmail.com)
+Email: [2025mds06@gmail.com](mailto:2025mds06@gmail.com)
 
 Project Link: [https://github.com/bryanlje/mds06-frontend](https://github.com/bryanlje/mds06-frontend)
