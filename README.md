@@ -31,6 +31,16 @@
 
 ---
 
+## 🔗 Project Structure & Repositories
+
+This project is divided into three main repositories to handle the frontend, backend logic, and model development separately:
+
+* **Frontend (This Repo):** [https://github.com/bryanlje/mds06-frontend](https://github.com/bryanlje/mds06-frontend)
+* **Backend API:** [[[https://github.com/bryanlje/mds06-backend](https://github.com/bryanlje/mds06-backend)]]
+* **Model Training & Data Preparation:** [[[https://github.com/bryanlje/mds06-ml](https://github.com/bryanlje/mds06-ml)]]
+
+---
+
 ## 🧠 The AI Pipeline
 
 The core of this application relies on a multi-stage Deep Learning pipeline hosted on **Google Cloud Platform**:
@@ -147,14 +157,25 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
+## 👥 Team Members
+
+This project was developed by:
+
+* **Bryan Leong Jing Ern**
+* **Phua Yee Yen**
+* **Ting Shu Hui**
+* **Lee Jian Jun Thomas**
+
+---
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[License Information]
 
 ---
 
 ## 📧 Contact
 
-Your Name - [2025mds06@gmail.com](mailto:2025mds06@gmail.com)
+Email - [2025mds06@gmail.com](mailto:2025mds06@gmail.com)
 
 Project Link: [https://github.com/bryanlje/mds06-frontend](https://github.com/bryanlje/mds06-frontend)
